@@ -1,8 +1,8 @@
-# 🔐 Secure Nomination System
+#  Secure Nomination System
 
 A full-stack web application demonstrating secure coding practices with user authentication, multi-address management, and nomination tracking.
 
-## 🛡️ Security Features
+## Security Features
 
 | Feature | Implementation |
 |---------|---------------|
@@ -14,14 +14,14 @@ A full-stack web application demonstrating secure coding practices with user aut
 | Audit Trail | Address change history tracking |
 | Secure IDs | UUID v4 (non-enumerable) |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React 18, CSS3
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL
 - **Auth:** JWT, Bcrypt
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 waitlist-system/
@@ -35,12 +35,6 @@ waitlist-system/
 └── database/
     └── database.sql # Schema
 ```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+
-- PostgreSQL 14+
 
 ### Database Setup
 ```bash
@@ -82,19 +76,7 @@ npm start
 
 Visit `http://localhost:3002`
 
-## 🔌 API Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | /api/register | User registration |
-| POST | /api/login | User login |
-| GET | /api/addresses | Get user addresses |
-| POST | /api/addresses | Add address |
-| PUT | /api/addresses/:id | Update address |
-| DELETE | /api/addresses/:id | Delete address |
-| GET | /api/addresses/history | Address change audit log |
-| POST | /api/nominations | Create nomination |
-| GET | /api/nominations/all | All nominations (tracking) |
 
 ## 📝 License
 
